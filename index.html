@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+        <title>Portfolio website complete</title>
+        
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Katelyn Ma</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Katelyn Ma</span><br> Full-stack developer</h1>
+
+                    <a href="Profile-1.pdf" download class="button">Download my resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/katelyn-m-0369881ab/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="https://github.com/Yma-Van2020" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+                
+                <div class="home__img">    
+                    <img class = "self" src="assets/img/pic.jpg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/pic1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am>Katelyn Ma</h2>
+                        <p class="about__text">My name is Katelyn Ma. I am an undergraduate from Athabasca University majoring in Computer Science. I have obtained my B.A. in Psychology 
+                            from the University of British Columbia in Canada. I apply my knowledge of human motivation and emotion to my user experience design and my knowledge of scientific 
+                            research to learn more about user behavior.
+                           I am an aspiring full-stack engineer who is proficient in using both front-end and back-end 
+                           languages and frameworks. Moreover, I have accomplished a few projects by utilizing the knowledge that I have learned throughout the years!
+                           <a href="https://github.com/Yma-Van2020">Check out my Github</a>👆
+                        </p>  
+                           <br>
+                           <p class="fun skills__text">
+                            Fun fact! I've been programing for
+                            <span id="time-container">0</span> seconds
+                        </p>
+         
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Technologies</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Below are my main skills, and I am a life-long learner!</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5 & CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__htmlcss">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <box-icon name='python' type='logo' color='#dd92ec' style="margin-right: 15px;"></box-icon>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <box-icon name='plus-medical' color='#dd92ec' style="margin-right: 15px"></box-icon>
+                                <span class="skills__name">MEAN, Django, Socket.io, Java</span>
+                            </div>
+                            <div class="skills__bar skills__other">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="cert section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__container bd-grid">
+                        <video class="demo work__img" src="assets/project demo/1.mp4" muted autoplay></video>
+                        <video class="demo work__img" src="assets/project demo/2.mp4" muted autoplay></video>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Feeling good?</h2>
+
+                <div class="contact__container bd-grid">
+                    <FORM>
+                        <INPUT TYPE ="button"  class="button" VALUE="Email me!" onClick="parent.location='mailto:katelynvan152@gmail.com?subject=tech opportunity&cc=candicema2018@gmail.com'">
+                    </FORM>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Katelyn Ma</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <footer>Made with <span class="heart">♥</span> in Canada</footer>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+    <script>
+        const timeContainer = document.getElementById("time-container");
+        const start = "10-10-2019";
+        const start_date = new Date(start);
+        const intlNumberFormatter = new Intl.NumberFormat("en-US");
+      
+        setInterval(() => {
+          const now = new Date();
+          const difference = Math.floor(
+            (now.getTime() - start_date.getTime()) / 1000
+          );
+      
+          timeContainer.innerText = intlNumberFormatter.format(difference);
+        }, 1000);
+      </script>
+</html>
