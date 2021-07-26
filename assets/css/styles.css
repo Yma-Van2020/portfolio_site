@@ -269,11 +269,12 @@ img {
 
 .self {
   border-radius: 50%;
-  position: relative;
-  right: 100px;
-  bottom: 240px;
-  width: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 220px;
+  width: 295px;
 }
+
 
 /*BUTTONS*/
 
