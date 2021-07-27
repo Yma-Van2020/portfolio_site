@@ -8,6 +8,7 @@ This is the source code for my portfolio website. I built this to showcase what 
 * CSS3
 * JAVASCRIPT
 * GOOGLE FONTS
+* SCSS
 
 ## Demo
 
