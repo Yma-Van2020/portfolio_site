@@ -381,7 +381,8 @@ img {
 .work__container {
   row-gap: 2rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .demo{
@@ -389,7 +390,7 @@ width: 800px;
 box-shadow: 10px 10px 5px #dd92ec;
 }
 
-.demo:hover{
+.work__img:hover{
   transform: scale(1.03);
 }
 
