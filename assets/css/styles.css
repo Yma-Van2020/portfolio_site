@@ -269,10 +269,6 @@ img {
 
 .self {
   border-radius: 50%;
-  position: absolute;
-  right: 0;
-  bottom: 220px;
-  width: 295px;
 }
 
 
@@ -400,13 +396,9 @@ width: 800px;
   overflow: hidden;
 }
 
-.work__img img, video{
+.work__img img{
   transition: 1s;
   cursor: pointer;
-}
-
-.work__img img:hover {
-  transform: scale(1.1);
 }
 
 /* ===== CONTACT =====*/
