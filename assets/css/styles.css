@@ -281,7 +281,7 @@ img {
   font-weight: var(--font-semi);
   border-radius: .5rem;
   border:none;
-  box-shadow: 0px 0px 10px 2px  #dd92ec;
+  box-shadow: 0px 0px 3px 2px  #dd92ec;
 }
 
 .button:hover {
