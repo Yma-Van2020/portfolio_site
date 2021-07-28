@@ -406,6 +406,10 @@ box-shadow: 10px 10px 5px #dd92ec;
   cursor: pointer;
 }
 
+#carouselExampleControls{
+  position: relative;
+  top:40px;
+}
 /* ===== CONTACT =====*/
 
 .contact__input {
