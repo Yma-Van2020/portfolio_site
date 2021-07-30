@@ -39,7 +39,8 @@
   border-top: none;
 }
 .pv-recommendation-entity {
-  margin-right: 0px;
+  margin-right: 80px;
+  margin-left: 80px;
   display: flex;
   border-top: 1px solid #e6e9ec;
   padding: 16px 0;
