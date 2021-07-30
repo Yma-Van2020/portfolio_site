@@ -387,13 +387,13 @@ img {
   justify-content: center;
 }
 
-.skills_pic{
-background-color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
+.skills_pic i{
+  margin: 30px;
+  font-size: 55px;
 }
-
+.skills_pic{
+  margin-top:70px;
+}
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
