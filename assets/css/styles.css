@@ -46,6 +46,11 @@
   padding: 16px 0;
 }
 
+.proj{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 /* image settings */
 .pv-recommendation-entity img {
 border-radius: 50%
