@@ -12,7 +12,7 @@
 /*===== Colores =====*/
 
 :root {
-  --first-color: #d580ebcb;
+  --first-color: #e2993fcb;
   --second-color: #161616;
 }
 
@@ -141,7 +141,7 @@ blockquote, q {
 }
 
 .fun {
-  color: #dd92ec;
+  color: #4b494b;
   font-size: 25px;
   font-family: 'Caveat', cursive;
 }

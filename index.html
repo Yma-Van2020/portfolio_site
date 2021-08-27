@@ -10,7 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- =====BOX ICONS===== -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
   <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
@@ -75,7 +76,7 @@
       </div>
 
       <div class="home__img">
-        <img class="self" src="assets/img/pic.jpg" alt="selfie" />
+
       </div>
     </section>
 
@@ -84,41 +85,45 @@
       <h2 class="section-title">About</h2>
 
       <div class="about__container bd-grid">
-
+        
         <div class="flex_about">
+          <img class="self work__img" src="assets/img/pic.jpg" style="width:200px;"alt="selfie" />
+          <br>
+
           <h2 class="about__subtitle">I'am>Katelyn Ma</h2>
           <div class="about__text">
-  
-            My name is Katelyn Ma. I am a Full-stack web developer based in Vancouver, Canada. I’m specializing in
-            JavaScript, HTML5, CSS3, Python,
-            Java, Flask, MySQL, MERN frameworks and have experience working with them. I'm currently attending Oregon
-            State University majoring in Computer Science. I also have a Psychology degree from the University of
-            British Columbia(top 50 in the world) which helps me in
-            UI/UX design. I
-            apply my knowledge of human motivation and emotion to my user
-            experience design and my knowledge of scientific research to learn
-            more about user behavior. Aside from theories, I also gained practical skills by attending the top two
-            immersive
-            software development Bootcamps in the US.
-          <br>
-          <br>
-          Take a look at my work or get in touch!<br>
-          Github: <a href="https://github.com/Yma-Van2020"
-            style="text-decoration: none;">https://github.com/Yma-Van2020</a><br>
 
-        </div>
-        <br>
-        <p class="fun skills__text">
-          Fun fact! I've been programing for
-          <span id="time-container">0</span> seconds
-        </p>
+            I am a Full-stack web developer based in Vancouver, Canada. I’m specializing in JavaScript, HTML5, CSS3,
+            Python, Java, Flask, MySQL, MERN frameworks and have experience working with them. I'm currently attending
+            Oregon State University majoring in Computer Science. I also have a Psychology degree from the University of
+            British Columbia(top 50 in the world), which helps me in UI/UX design. I apply my knowledge of human
+            motivation and emotion to my user experience design and my knowledge of scientific research to learn more
+            about user behavior. Aside from theories, I also gained practical skills by attending the top two immersive
+            software development Bootcamps in the US.
+            <br>
+            <br>
+            Take a look at my work or get in touch!<br>
+            <br>
+            <div class="d-flex justify-content-center">
+              <a href="https://github.com/Yma-Van2020"
+              class="card-link"><button class="btn btn-outline-dark m-1">My Github&nbsp;<i
+                  class="fab fa-github-alt"></i></button></a>
+            </div>
+             
+
+          </div>
+          <br>
+          <p class="fun skills__text">
+            Fun fact! I've been programing for
+            <span id="time-container">0</span> seconds
+          </p>
         </div>
       </div>
     </section>
 
     <!--===== SKILLS =====-->
     <section class="skills section" id="skills">
-      <h2 class="section-title">Technologies</h2>
+      <h2 class="section-title">Technologies and Certificates</h2>
 
       <div class="skills__container bd-grid">
         <div>
@@ -137,8 +142,8 @@
           </div>
           <div class="skills__data">
             <div class="skills__names">
-              <box-icon name="python" type="logo" color="#dd92ec" style="margin-right: 15px"></box-icon>
-              <span class="skills__name">Python</span>
+              <box-icon name="python" type="logo" color="#e2993fcb" style="margin-right: 15px"></box-icon>
+              <span class="skills__name">Python3 & Flask & MySQL</span>
             </div>
             <div class="skills__bar skills__python"></div>
             <div>
@@ -155,8 +160,8 @@
           </div>
           <div class="skills__data">
             <div class="skills__names">
-              <box-icon name="plus-medical" color="#dd92ec" style="margin-right: 15px"></box-icon>
-              <span class="skills__name">MERN, Flask, Socket.io, Java, MySQL, etc. </span>
+              <box-icon name="plus-medical" color="#e2993fcb" style="margin-right: 15px"></box-icon>
+              <span class="skills__name">M.E.R.N. frameworks, Socket.io, Java, Bcrypt etc. </span>
             </div>
             <div class="skills__bar skills__other"></div>
             <div>
@@ -277,7 +282,7 @@
 
     <h2 class="section-title" style="margin-bottom: 100px;margin-top: 100px;">Project Specs</h2>
     <div class="proj">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;border-radius: 15px;">
         <img src="assets/img/twiddler.png" class="card-img-top" alt="twiddler picture">
         <div class="card-body">
           <h5 class="card-title">Twiddler App</h5>
@@ -287,15 +292,16 @@
             by that specific user and go back to the home page afterwards.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Technologies:Javascript, HTML5, CSS3, Jquery, UX/UI design</li>
+          <li class="list-group-item">Technologies:Javascript, HTML5, CSS3, Jquery, UX/UI design, Shell</li>
         </ul>
-        <div class="card-body">
+        <div class="card-body d-flex justify-content-center">
 
-        <a href="https://github.com/Yma-Van2020/twiddler-app" class="card-link"><button class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
-      </div>
+          <a href="https://github.com/Yma-Van2020/twiddler-app" class="card-link"><button
+              class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
+        </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;border-radius: 15px;">
         <img src="assets/img/map.png" class="card-img-top" alt="map picture">
         <div class="card-body">
           <h5 class="card-title">UCSDUnfoldingMap-Project</h5>
@@ -307,13 +313,15 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Technologies: Java,Unfolding Maps library and Processing GUI</li>
         </ul>
-  
-        <div class="card-body">
-          <a href="https://github.com/Yma-Van2020/UCSDUnfoldingMap-Project/tree/main/UCSDUnfoldingMaps-master" class="card-link"><button class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
+
+        <div class="card-body d-flex justify-content-center">
+          <a href="https://github.com/Yma-Van2020/UCSDUnfoldingMap-Project/tree/main/UCSDUnfoldingMaps-master"
+            class="card-link"><button class="btn btn-outline-dark m-1">View&nbsp;<i
+                class="fab fa-github-alt"></i></button></a>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;border-radius: 15px;">
         <img src="assets/img/pet_app.png" class="card-img-top" alt="pet app picture">
         <div class="card-body">
           <h5 class="card-title">Pet Adoption APP</h5>
@@ -323,14 +331,15 @@
             and start an adoption application. If the pet has been adopted, the application would not go through. Users
             can search for local pets available for adoption from the Petfinder API. Users can either check out the
             pet's profile, start an application or add certain pets into their watchlist.</p>
-            
+
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Technologies:JS/jquery,Python3,HTML5/CSS3/SCSS/Less,Boostrap,SQL,Flask, RESTful
             API, Bcrypt</li>
         </ul>
-        <div class="card-body">
-          <a href="https://github.com/Yma-Van2020/pet_adoption_app" class="card-link"><button class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
+        <div class="card-body d-flex justify-content-center">
+          <a href="https://github.com/Yma-Van2020/pet_adoption_app" class="card-link"><button
+              class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
         </div>
       </div>
       <!--
@@ -430,7 +439,7 @@
         <button type="button" class="btn btn-outline-dark m-1"
           onClick="parent.location='mailto:katelynvan152@gmail.com?subject=tech opportunity&cc=candicema2018@gmail.com'">Email
           me &nbsp;<i class="far fa-envelope"></i></button>
-      </div>  
+      </div>
     </section>
   </main>
 
