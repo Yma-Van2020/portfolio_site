@@ -7,7 +7,7 @@ This is the source code for my portfolio website. I built this to showcase what 
 * HTML5
 * CSS3
 * JAVASCRIPT
-* GOOGLE/fontawesome FONTS
+* GOOGLE/Fontawesome FONTS
 * SCSS
 * Boostrap
 
