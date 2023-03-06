@@ -44,8 +44,11 @@
   display: flex;
   border-top: 1px solid #e6e9ec;
   padding: 16px 0;
+  align-items: center;
 }
-
+div#nav-menu {
+  margin-top: 15px;
+}
 .proj{
   display: flex;
   justify-content: space-around;
@@ -125,6 +128,7 @@ blockquote {
   line-height: 1.3333;
   font-weight: 200;
   color: rgba(0,0,0,.75);
+  margin: 0 0 0rem;
 }
 blockquote, q {
   quotes: none;
@@ -468,11 +472,14 @@ img {
 }
 
 .skills__python {
-  width: 70%;
+  width: 80%;
 }
 
 .skills__js {
   width: 85%;
+}
+.card-img, .card-img-top {
+  height: 349px;
 }
 
 .flex_about{
@@ -481,7 +488,7 @@ img {
   align-items: center;
 }
 .skills__other {
-  width: 75%;
+  width: 80%;
 }
 
 .skills__img {
@@ -534,6 +541,9 @@ box-shadow: 10px 10px 5px #dd92ec;
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+}
+.justify-content-center{
+  max-height: 78px !important;
 }
 
 .contact__button {
