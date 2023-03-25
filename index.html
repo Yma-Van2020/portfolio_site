@@ -62,7 +62,7 @@
     <section class="home bd-grid" id="home">
       <div class="home__data">
         <h1 class="home__title">
-          <img style="display:inline;width:103px" src="assets/img/hi.png" alt=""><br />I'am <span
+          <br />I'am <span
             class="home__title-color">Katelyn Ma</span><br />
           Jr. Full-stack developer
         </h1>
@@ -94,9 +94,8 @@
 
           <h2 class="about__subtitle">I'am>Katelyn Ma</h2>
           <div class="about__text">
-            I am a developer with almost two years of experience working in the computer software industry. My technical skills include Javascript, Java Spring, Python, OOP, MER/VN frameworks, HTML5/CSS3, and MongoDB.<br /><br />
-            During my tenure at two different companies, I have demonstrated my ability to build full-stack web applications using modern frameworks and optimized SQL queries to improve application performance and scalability. Additionally, I have collaborated with product teams to ensure the best possible user interface for end-users.
-            I am now on the lookout for a Junior Full Stack Developer position where I can continue to grow and develop my skills in a dynamic and supportive environment. I have a range of technical certificates and educational backgrounds related to technology, which I believe will enable me to bring a unique perspective to any team.
+            Web developer, practiced in functional and object oriented programming in languages such as JavaScript and Python. Quick to learn new skills and adapt to new syntaxes, while driven to tackle difficult problems. Built multiple web applications that serve information in the forms of SPA and multipage apps. <br /><br />
+            Experienced in developing full-stack web applications using the MERN stack, proficient in integrating user-facing elements with server-side logic to deliver seamless user experiences. Skilled in improving application performance and scalability, conducting QA and integration to ensure optimal functionality. Proficient in JavaScript frameworks, HTML, SCSS/CSS for developing chatbots and analytical platforms with exceptional UIs, and NodeJS/MongoDB for server-side performance. Collaborative and Agile-minded, committed to delivering high-quality work within tight deadlines.
             <br>
             <br>
             Take a look at my work and get in touch!<br>
@@ -278,17 +277,13 @@
     </section>
 
     <h2 class="section-title" style="margin-bottom: 100px;margin-top: 100px;">Projects Technical Specs</h2>
-    <div class="proj">
+    <div class="proj container">
+      <div class="row">
       <div class="card" style="width: 20rem;border-radius: 15px;">
         <img src="assets/img/twiddler.png" class="card-img-top" alt="twiddler picture">
         <div class="card-body">
           <h5 class="card-title">Twiddler App</h5>
-          <p class="card-text">This is a simple Twitter clone built with jQuery. It is inspired by Twitter where
-            users can post their own tweets and
-            load new tweets of the others(auto-generated). Clicking the Update Feed button can re-render the currently
-            displayed Feed with the most current list of Tweets. Clicking a friend's username inside an individual Tweet
-            can re-render the Feed with the most current list of that specific user's Tweets. Clicking the Home Button
-            can return to the Home Feed. Users can even see the time stamp of tweets.</p>
+          <p class="card-text">This is a jQuery-based Twitter clone that allows users to post and view tweets. It features an auto-generated feed of tweets from other users, with the ability to update the feed with the latest tweets. Users can click on a friend's username in a tweet to view their tweets, and can also return to the home feed with a single click. The timestamp of each tweet is displayed for easy reference.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><b>Technologies:</b><br >Javascript, HTML5, CSS3, Jquery, UX/UI design, Shell</li>
@@ -304,12 +299,7 @@
         <img src="assets/img/map.png" class="card-img-top" alt="map picture">
         <div class="card-body">
           <h5 class="card-title">UnfoldingMap-Project</h5>
-          <p class="card-text"> This is a map application that gives a visual representation of earthquake information
-            that is obtained in real-time, organized according to their magnitude, and represented in
-            a GUI. The project uses the Unfolding library (http://unfoldingmaps.org/).The map displays a marker on the
-            specific city where the earthquake occurred, the size and color of the
-            marker are based on the magnitude of the earthquake.The main concepts are inheritance and
-            polymorphism, to extend the earthquake marker to city marker, island marker, ocean marker, etc. </p>
+          <p class="card-text"> This map application visualizes real-time earthquake data using the Unfolding library. Earthquakes are organized by magnitude and displayed on a GUI using markers that show the location of each event. The size and color of each marker corresponds to the magnitude of the earthquake. The program utilizes inheritance and polymorphism to create different types of markers, including city, island, and ocean markers. </p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><b>Technologies:</b><br > Java,Unfolding Maps library and Processing GUI</li>
@@ -326,12 +316,7 @@
         <img src="assets/img/pet_app.png" class="card-img-top" alt="pet app picture">
         <div class="card-body">
           <h5 class="card-title">Pet Adoption App</h5>
-          <p class="card-text">This is a pet adoption app aiming to provide a smooth user experience and give easy
-            access to the Petfinder API. After registration, a verification email with a confirmation link will be sent
-            to the user's inbox. It can be resent if expired. Users can choose to view the information of listed animals
-            and start an adoption application. If the pet has been adopted, the application would not go through. Users
-            can search for local pets available for adoption from the Petfinder API. Users can either check out the
-            pet's profile, start an application or add certain pets to their watchlist.</p>
+          <p class="card-text">This pet adoption app provides easy access to the Petfinder API and a smooth user experience. After registration, users receive a verification email with a confirmation link. They can view information on available animals and begin adoption applications. Users can also search for local pets, view profiles, start applications, and add pets to their watchlist. If a pet has been adopted, applications will not go through.</p>
 
         </div>
         <ul class="list-group list-group-flush">
@@ -343,17 +328,13 @@
               class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
         </div>
       </div>
-
+    </div>
+    <div class="row">
       <div class="card" style="width: 20rem;border-radius: 15px;">
         <img src="assets/img/ms.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Mood Score App</h5>
-          <p class="card-text">This app is used to calculate a user's weekly mood score and provide some resources to
-            maintain psychological health. After logging in, the user can chat with the GuidingBot for the usage of the
-            app. Users can fill out a form. The app then uses AFINN-based sentiment analysis to analyze the user's
-            answers to produce a mood score. Users can view and modify past forms. The most recent mood scores produced
-            will be reflected on the line chart along with the weekly average mood score. Users can then chat with the
-            guidingBot for further assistance based on the scores that they received.</p>
+          <p class="card-text">This app calculates a weekly mood score based on a user's responses to a form, using AFINN-based sentiment analysis. Users can view and modify past forms, and track their mood score on a line chart with the weekly average. The app also provides resources for maintaining psychological health and allows users to chat with GuidingBot for assistance based on their mood scores.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><b>Technologies:</b><br > JS, React, Html/Css, Boostrap, MongoDB, Mongoose, Express, Bcrypt,
@@ -369,7 +350,7 @@
         <img src="assets/img/project.png" class="card-img-top" alt="pet app picture">
         <div class="card-body">
           <h5 class="card-title">Project Management App</h5>
-          <p class="card-text">This app is created to conviniently manage projects. Many-to-many relationships has been built using Java Spring Tool Suite 4 and MySQL. User password has been encrypted with Bcrypt and hashed for security reasons. Validationsa are used for all forms. Top table includes all the projects the logged in user is not a part of. Bottom table includes all the projects the user is involved in. User is only able to edit projects for which they are the team lead. The full CRUD functionallity is available for the user. </p>
+          <p class="card-text">This app uses Java Spring Tool Suite 4 and MySQL to manage projects with many-to-many relationships. User passwords are encrypted with Bcrypt and hashed for security. Validations are used for all forms. The top table shows projects the user is not a part of, while the bottom table shows their involvement. Users can only edit projects they lead, with full CRUD functionality available. </p>
   
         </div>
         <ul class="list-group list-group-flush">
@@ -380,6 +361,23 @@
               class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
         </div>
       </div>
+
+      <div class="card" style="width: 20rem;border-radius: 15px;">
+        <img src="assets/img/nasa.png" class="card-img-top" alt="nasa app picture">
+        <div class="card-body">
+          <h5 class="card-title">NASA Mission Control</h5>
+          <p class="card-text">This app allows users to schedule a mission launch for interstellar travel to one of the Kepler Exoplanets. It features a rocket mission control platform where users can launch, abort, and view upcoming and historical launches. The project demonstrates knowledge of NodeJs, React, and their related frameworks and libraries. </p>
+  
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Technologies:</b><br > JS, NodeJs, Express, Jest, Supertest, PM2. REST API, React, AWS, Mongoose, Morgan, Cors, Arwes</li>
+        </ul>
+        <div class="card-body d-flex justify-content-center">
+          <a href="https://github.com/Yma-Van2020/node_NASA_project" class="card-link"><button
+              class="btn btn-outline-dark m-1">View&nbsp;<i class="fab fa-github-alt"></i></button></a>
+        </div>
+      </div>
+    </div>
     </div>
 
     <h2 class="section-title" style="margin-bottom: 100px;margin-top: 100px;">Testimonials </h2>

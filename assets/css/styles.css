@@ -402,8 +402,7 @@ img {
   font-size: 45px;
 }
 .skills_pic{
-  margin-top:70px;
-  margin: 70px 50px 0px 150px;
+  margin: 92px;
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
@@ -482,6 +481,12 @@ img {
   height: 349px;
 }
 
+.row {
+  justify-content: center;
+}
+.card {
+  margin: 10px !important;
+}
 .flex_about{
   display: flex;
   flex-direction: column;
