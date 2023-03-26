@@ -13,4 +13,4 @@ This is the source code for my portfolio website. I built this to showcase what 
 
 ## Demo
 
-You can visit the website by going  https://yma-van2020.github.io/portfolio-site/
+You can visit the website by going   https://yma-van2020.github.io/portfolio_site/
