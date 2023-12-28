@@ -430,7 +430,8 @@ img {
 }
 
 .skills__text {
-  margin-bottom: var(--mb-4);
+  width: 69%;
+  margin: 0 auto;
 }
 
 .skills__data {
