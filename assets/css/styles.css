@@ -430,8 +430,11 @@ img {
 }
 
 .skills__text {
-  width: 69%;
+  align-items: center;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills__data {
@@ -534,7 +537,7 @@ box-shadow: 10px 10px 5px #dd92ec;
 
 #carouselExampleControls{
   position: relative;
-  top:40px;
+  top:15px;
 }
 /* ===== CONTACT =====*/
 
