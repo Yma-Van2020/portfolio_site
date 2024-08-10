@@ -13,7 +13,7 @@
 
 :root {
   --first-color: #D8C3A5;
-  --second-color: #E98074;
+  --second-color: #8E8D8A;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -224,11 +224,10 @@ ul {
 
 a {
   text-decoration: none;
-  &hover {
-    color: white !important;
-  }
 }
-
+a:hover{
+  color: white !important;
+}
 img {
   max-width: 100%;
   height: auto;
