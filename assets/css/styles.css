@@ -709,7 +709,7 @@ box-shadow: 10px 10px 5px #dd92ec;
   }
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 250px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
