@@ -709,21 +709,12 @@ box-shadow: 10px 10px 5px #dd92ec;
   }
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 360px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
   }
   .home__img {
     right: 10%;
-  }
-  body {
-    background: url("https://images.unsplash.com/photo-1580123071152-670e4148f49b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fG5hdHVyZXxlbnwwfHwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") fixed;
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
