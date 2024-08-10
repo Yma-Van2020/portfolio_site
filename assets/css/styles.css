@@ -188,10 +188,10 @@ h1, h2 {
   font-family: 'Caveat', cursive;
   color: #fff !important;
   text-shadow:
-    0 0 10px #e3b1f7,
-    0 0 20px #e3b1f7,
-    0 0 30px #e3b1f7,
-    0 0 40px #e3b1f7,
+    0 0 10px #db88fc,
+    0 0 20px #db88fc,
+    0 0 30px #db88fc,
+    0 0 40px #db88fc,
     0 0 50px #d05dfe;
   animation: pulsate 1.5s infinite alternate;
 }
@@ -200,19 +200,19 @@ h1, h2 {
   100% {
     text-shadow:
       0 0 8px #fff,
-      0 0 18px #e3b1f7,
-      0 0 28px #e3b1f7,
-      0 0 36px #e3b1f7,
-      0 0 48px #e3b1f7;
+      0 0 18px #db88fc,
+      0 0 28px #db88fc,
+      0 0 36px #db88fc,
+      0 0 48px #db88fc;
   }
   
   0% {
     text-shadow:
       0 0 5px #fff,
-      0 0 12px #e3b1f7,
-      0 0 18px #e3b1f7,
-      0 0 24px #e3b1f7,
-      0 0 30px #e3b1f7;
+      0 0 12px #db88fc,
+      0 0 18px #db88fc,
+      0 0 24px #db88fc,
+      0 0 30px #db88fc;
   }
 }
 
@@ -709,7 +709,7 @@ box-shadow: 10px 10px 5px #dd92ec;
   }
 }
 
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 200px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
