@@ -188,31 +188,31 @@ h1, h2 {
   font-family: 'Caveat', cursive;
   color: #fff !important;
   text-shadow:
-    0 0 10px #db88fc,
-    0 0 20px #db88fc,
-    0 0 30px #db88fc,
-    0 0 40px #db88fc,
-    0 0 50px #d05dfe;
+    0 0 6px #db88fc,
+    0 0 12px #db88fc,
+    0 0 18px #db88fc,
+    0 0 24px #db88fc,
+    0 0 30px #d05dfe;
   animation: pulsate 1.5s infinite alternate;
 }
 
 @keyframes pulsate {
   100% {
     text-shadow:
-      0 0 8px #fff,
-      0 0 18px #db88fc,
-      0 0 28px #db88fc,
-      0 0 36px #db88fc,
-      0 0 48px #db88fc;
+      0 0 5px #fff,
+      0 0 10px #db88fc,
+      0 0 15px #db88fc,
+      0 0 20px #db88fc,
+      0 0 25px #db88fc;
   }
   
   0% {
     text-shadow:
-      0 0 5px #fff,
-      0 0 12px #db88fc,
-      0 0 18px #db88fc,
-      0 0 24px #db88fc,
-      0 0 30px #db88fc;
+      0 0 3px #fff,
+      0 0 6px #db88fc,
+      0 0 10px #db88fc,
+      0 0 14px #db88fc,
+      0 0 18px #db88fc;
   }
 }
 
