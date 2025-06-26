@@ -198,11 +198,11 @@ h1, h2 {
   font-family: 'Caveat', cursive;
   color: #fff !important;
   text-shadow:
-    0 0 6px #00ffff,
-    0 0 12px #00ffff,
-    0 0 18px #00ffff,
-    0 0 24px #00ffff,
-    0 0 30px #00ffff;
+    0 0 6px #d8b4f8,
+    0 0 12px #d8b4f8,
+    0 0 18px #d8b4f8,
+    0 0 24px #d8b4f8,
+    0 0 30px #d8b4f8;
   animation: pulsate 1.5s infinite alternate;
 }
 
@@ -210,21 +210,21 @@ h1, h2 {
   100% {
     text-shadow:
       0 0 4px #fff,
-      0 0 10px #00ffff,
-      0 0 15px #00ffff,
-      0 0 20px #00ffff,
-      0 0 25px #00ffff;
+      0 0 10px #d8b4f8,
+      0 0 15px #d8b4f8,
+      0 0 20px #d8b4f8,
+      0 0 25px #d8b4f8;
   }
 
   0% {
     text-shadow:
       0 0 2px #fff,
-      0 0 8px #00ffff,
-      0 0 12px #00ffff,
-      0 0 16px #00ffff,
-      0 0 20px #00ffff;
+      0 0 8px #d8b4f8,
+      0 0 12px #d8b4f8,
+      0 0 16px #d8b4f8,
+      0 0 20px #d8b4f8;
   }
-} 
+}
 
 ul {
   margin: 0;
